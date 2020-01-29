@@ -1,6 +1,6 @@
 public class Person
 {
-	private String name;
+	protected String name;
 
 	public Person()
 	{
@@ -22,7 +22,7 @@ public class Person
 	{
 		System.out.println("Name: " + name);
 	}
-	public boolean equals(Object p)
+	public boolean equals(Person p)
 	{
 		return name.equals(p.name);
 	}
